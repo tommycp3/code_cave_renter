@@ -25,3 +25,21 @@
        url('../fonts/Oswald-regular/Oswald-regular.ttf') format('truetype'),
        url('../fonts/Oswald-regular/Oswald-regular.svg#Oswald') format('svg');
 }
+
+/* CSS for table of renters */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

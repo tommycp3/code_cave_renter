@@ -6,6 +6,47 @@ class Home extends Component {
       <main className="container">
         <div className="pure-g">
           <div className="pure-u-1-1">
+          <h3>Renters</h3>
+            <table>
+              <tr>
+                <th>Ethereum Address</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Ether Held</th>
+                <th>Lease Start Date</th>
+                <th>Last Payment Date</th>
+                <th>inDefault</th>
+                <th>_assigned</th>
+              </tr>
+              <tr>
+                <td>0x</td>
+                <td>Thomas</td>
+                <td>thomasmillerprivate@gmail.com</td>
+                <td>none so far</td>
+                <td>28th Aug 2017</td>
+              </tr>
+              <tr>
+                <td>0x</td>
+                <td>Barry</td>
+                <td>barry@earsman.com</td>
+                <td>none so far</td>
+              </tr>
+              <tr>
+                <td>0x</td>
+                <td>Sam</td>
+                <td>pospi@spadgos.com</td>
+                <td>none so far</td>
+              </tr>
+              <tr>
+                <td>0x</td>
+                <td>Kris</td>
+                <td>kris.randall@gmail.com</td>
+                <td>none so far</td>
+                <td>none so far</td>
+              </tr>
+            </table>
+            
+            {/* I've commented out this JSX becuase it was the origional content in the Truffle Suite box
             <h1>Good to Go!</h1>
             <p>Your Truffle Box is installed and ready.</p>
             <h2>UPort Authentication</h2>
@@ -27,8 +68,15 @@ class Home extends Component {
             </code></pre>
             <h3>Further Reading</h3>
             <p>The React/Redux portions of the authentication fuctionality are provided by <a href="https://github.com/mjrussell/redux-auth-wrapper" target="_blank">mjrussell/redux-auth-wrapper</a>.</p>
+            */ }
           </div>
         </div>
+
+
+
+
+
+        
       </main>
     )
   }
